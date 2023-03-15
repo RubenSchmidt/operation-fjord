@@ -1,0 +1,54 @@
+VTMapCustom
+{
+	mapID = orsta-volda-200
+	mapName = Norwegian Fjords
+	mapDescription = Map based on official Norwegian height data over the area of Møre and Romsdal. Including Ørsta airfield, Sandane Airfield and Florø Airfiel
+	mapType = HeightMap
+	edgeMode = Water
+	biome = Boreal
+	seed = seed
+	mapSize = 64
+	TerrainSettings
+	{
+	}
+	StaticPrefabs
+	{
+		StaticPrefab
+		{
+			prefab = airbase2
+			id = 0
+			globalPos = (132461.97607421875, 121.3189697265625, 123869.71875)
+			rotation = (0, 54.03231, 0)
+			grid = (43,40)
+			tSpacePos = (-365.9761, 989.7189, 121.3188)
+			terrainToLocalMatrix = -0.5873289;-0.8093486;9.648186E-08;586.0791;0;-1.192093E-07;1;-121.319;-0.8093486;0.5873289;-7.001505E-08;-877.4924;0;0;0;1;
+			baseName = Ørsta Airfield
+		}
+		StaticPrefab
+		{
+			prefab = airbase2
+			id = 2
+			globalPos = (133319.03735351563, 230.8551025390625, 84803.1845703125)
+			rotation = (0, 40.30645, 0)
+			grid = (43,27)
+			tSpacePos = (-1223.038, 1859.185, 230.8549)
+			terrainToLocalMatrix = -0.7625957;-0.6468757;7.711358E-08;269.9784;0;-1.192093E-07;1;-230.8551;-0.6468758;0.7625957;-9.090847E-08;-2208.959;0;0;0;1;
+			baseName = Sandane Airfield
+		}
+		StaticPrefab
+		{
+			prefab = airbase2
+			id = 3
+			globalPos = (70964.41015625, 22.212158203125, 67554.585693359375)
+			rotation = (0, 88.63225, 0)
+			grid = (23,21)
+			tSpacePos = (-308.4102, 3042.586, 22.21191)
+			terrainToLocalMatrix = -0.02386964;-0.9997151;1.191753E-07;3034.357;0;-1.192093E-07;1;-22.21216;-0.9997153;0.02386964;-2.845482E-09;-380.9478;0;0;0;1;
+			baseName = Florø Airfield
+		}
+	}
+	BezierRoads
+	{
+	}
+}
+
